@@ -1,0 +1,64 @@
+Toast Libraries:
+
+1.NPM packages:
+	* https://www.npmjs.com/package/vue3-toastify (most downloads)
+	* https://www.npmjs.com/package/vue-toast-notification
+
+2. PrimeVue: https://primevue.org/toast/
+
+3. https://ankurk91.github.io/vue-toast-notification/?ref=madewithvuejs.com
+
+
+<!-- <Select v-model="selected" :options="languageOption" filter class="w-full md:w-56 lang-select">
+              <template #value="slotProps">
+                <div v-if="slotProps.value" class="flex items-center" style="height: 30px;">
+                  <img :alt="slotProps.value.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="`mr-2 flag flag-${slotProps.value.value}`" style="width: 25px; height: 25px;" />
+                </div>
+              </template>
+              <template #option="slotProps">
+                  <div class="flex items-center">
+                    <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="`mr-2 flag  flag-${slotProps.option.value}`" style="width: 25px; height: 25px;" />
+                  </div>
+              </template>
+            </Select> -->
+
+
+<!--select code tag simple select tag-->
+            <!-- <select panelClass="panel" class="lang-select" @change="onChange" v-model="selectedValue">
+                    <option value="en" selected>
+                    <img
+                        src="../assets/icons/united-kingdom.svg"
+                        alt="English"
+                        width="2rem"
+                        class="lang-img"
+                    />
+                    </option>
+                    <option value="de" class="lang-option">
+                    <img
+                        src="../assets/icons/germany.svg"
+                        alt="German"
+                        width="2rem"
+                        class="lang-img"
+                    />
+                    </option>
+                    <option value="nl" class="lang-option">
+                    <img
+                        src="../assets/icons/netherlands.svg"
+                        alt="Dutch"
+                        width="2rem"
+                        class="lang-img"
+                    />
+                    </option>
+                </select>-->
+
+<!--select simple tag code with v-for-->
+            <!-- <img v-bind:src="selected.src" :alt="selected.label" class="selected-lang"> -->
+            <!-- <select panelClass="lang-select-panel" class="lang-select" @change="onChange" v-model="selectedValue">
+                <option v-for="lang in languageOption" :key="lang.value" :value="lang.value" class="lang-option">
+                <img
+                    v-bind:src="lang.src"
+                    :alt="lang.label"
+                    class="lang-img"
+                />
+                </option>
+            </select> -->
