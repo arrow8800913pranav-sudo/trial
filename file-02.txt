@@ -9,3 +9,5 @@ third changes in file 02
 changes in file-02 from trial-01 
 
 changes from trial-2 branch
+
+changes in file 2 for get reset for reversing a pull
