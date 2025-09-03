@@ -5,3 +5,5 @@ changes in file-02 as well
 second change in file 02
 
 third changes in file 02
+
+changes in file-02 from trial-01 
